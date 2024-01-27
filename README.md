@@ -29,12 +29,18 @@ npm start
 
 ## Documentacion de Endpoints
 
-Endpoint: /team
-Método: GET
+Endpoint: `/team`
+
+Método: `GET`
+
 Descripción: Obtiene la lista del equipo titular, dependiendo de los 3 ultimos entrenamientos.
+
+
 Respuesta Exitosa: Lista equipo titular.
+
 Ejemplo respuesta: 
-```{
+```
+{
   "players": [
     {
       "id": 6,
@@ -65,11 +71,15 @@ Ejemplo respuesta:
 }
 ```
 
-Endpoint: /training
-Método: POST
+Endpoint: `/training`
+
+Método: `POST`
+
 Descripción: Inserta un registro del entrenamiento con el score de cada jugador.
+
 Parámetros:
-  - request body :
+  - Request body :
+  
   ```
   {
     "players": [
@@ -87,7 +97,7 @@ Parámetros:
         },
     ]
   } 
-   ```
+```
  
 Respuesta Exitosa: JSON vacio, HTTP status 200.
 
