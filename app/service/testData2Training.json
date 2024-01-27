@@ -1,0 +1,125 @@
+[
+    {
+      "_id": "65b3dad9f12e902218cd8355",
+      "training_date": "2024-01-26T16:16:25.416Z",
+      "players": [
+        {
+          "name": "player 1",
+          "id": 1,
+          "score": 71.8,
+          "_id": "65b3dad9f12e902218cd8356"
+        },
+        {
+          "name": "player 2",
+          "id": 2,
+          "score": 90.5,
+          "_id": "65b3dad9f12e902218cd8357"
+        },
+        {
+          "name": "player 3",
+          "id": 3,
+          "score": 114,
+          "_id": "65b3dad9f12e902218cd8358"
+        },
+        {
+          "name": "player 4",
+          "id": 4,
+          "score": 91.7,
+          "_id": "65b3dad9f12e902218cd8359"
+        },
+        {
+          "name": "player 5",
+          "id": 5,
+          "score": 49.5,
+          "_id": "65b3dad9f12e902218cd835a"
+        },
+        {
+          "name": "player 6",
+          "id": 6,
+          "score": 122,
+          "_id": "65b3dad9f12e902218cd835b"
+        },
+        {
+          "name": "player 7",
+          "id": 7,
+          "score": 37.8,
+          "_id": "65b3dad9f12e902218cd835c"
+        },
+        {
+          "name": "player 8",
+          "id": 8,
+          "score": 51.75,
+          "_id": "65b3dad9f12e902218cd835d"
+        },
+        {
+          "name": "player 9",
+          "id": 9,
+          "score": 83.42,
+          "_id": "65b3dad9f12e902218cd835e"
+        }
+      ],
+      "__v": 0
+    },
+  
+    {
+      "_id": "65b3dadef12e902218cd836b",
+      "training_date": "2024-01-26T16:16:30.590Z",
+      "players": [
+        {
+          "name": "player 1",
+          "id": 1,
+          "score": 71.8,
+          "_id": "65b3dadef12e902218cd836c"
+        },
+        {
+          "name": "player 2",
+          "id": 2,
+          "score": 90.5,
+          "_id": "65b3dadef12e902218cd836d"
+        },
+        {
+          "name": "player 3",
+          "id": 3,
+          "score": 114,
+          "_id": "65b3dadef12e902218cd836e"
+        },
+        {
+          "name": "player 4",
+          "id": 4,
+          "score": 91.7,
+          "_id": "65b3dadef12e902218cd836f"
+        },
+        {
+          "name": "player 5",
+          "id": 5,
+          "score": 49.5,
+          "_id": "65b3dadef12e902218cd8370"
+        },
+        {
+          "name": "player 6",
+          "id": 6,
+          "score": 122,
+          "_id": "65b3dadef12e902218cd8371"
+        },
+        {
+          "name": "player 7",
+          "id": 7,
+          "score": 37.8,
+          "_id": "65b3dadef12e902218cd8372"
+        },
+        {
+          "name": "player 8",
+          "id": 8,
+          "score": 51.75,
+          "_id": "65b3dadef12e902218cd8373"
+        },
+        {
+          "name": "player 9",
+          "id": 9,
+          "score": 83.42,
+          "_id": "65b3dadef12e902218cd8374"
+        }
+      ],
+      "__v": 0
+    }
+  ]
