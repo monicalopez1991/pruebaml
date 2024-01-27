@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
     "start": "nodemon ./bin/www",
-    "migrate": "node model/database.js",
     "test": "jest",
     "coverage": "jest --coverage"
   },

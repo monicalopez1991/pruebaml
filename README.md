@@ -27,6 +27,70 @@ npm install
 npm start
 ```
 
+## Documentacion de Endpoints
+
+Endpoint: /team
+Método: GET
+Descripción: Obtiene la lista del equipo titular, dependiendo de los 3 ultimos entrenamientos.
+Respuesta Exitosa: Lista equipo titular.
+Ejemplo respuesta: 
+```{
+  "players": [
+    {
+      "id": 6,
+      "name": "player 6",
+      "score": 366
+    },
+    {
+      "id": 3,
+      "name": "player 3",
+      "score": 342
+    },
+    {
+      "id": 4,
+      "name": "player 4",
+      "score": 275.1
+    },
+    {
+      "id": 2,
+      "name": "player 2",
+      "score": 271.5
+    },
+    {
+      "id": 9,
+      "name": "player 9",
+      "score": 250.26
+    }
+  ]
+}
+```
+
+Endpoint: /training
+Método: POST
+Descripción: Inserta un registro del entrenamiento con el score de cada jugador.
+Parámetros:
+  - request body :
+  ```
+  {
+    "players": [
+        {
+            "id": 1,
+            "name": "player 1",
+            "stats": {
+                "power": 300,
+                "speed": {
+                    "distance": "30",
+                    "time": "5"
+                },
+                "passes": "20"
+            }
+        },
+    ]
+  } 
+   ```
+ 
+Respuesta Exitosa: JSON vacio, HTTP status 200.
+
 
 
 
