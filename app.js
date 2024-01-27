@@ -39,7 +39,7 @@ db.connectToDatabase()
 params.findOne({
     id: 1
 }).then((docs) => {
-    if(docs.length === 0){
+    if(docs == null || docs.length === 0){
         params.create({numberOfPlayers: 5, powerPercentage: 20, speedPercentage:30, passesPercentage:50, id:1})
     }
 
