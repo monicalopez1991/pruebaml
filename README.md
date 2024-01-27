@@ -101,6 +101,16 @@ Parámetros:
  
 Respuesta Exitosa: JSON vacio, HTTP status 200.
 
+Endpoint: /params
+
+Método: PUT
+
+Descripción: Endpoint para actualizar los parametros de la aplicacion.
+
+Parámetros:Porcentaje para el entrenamiento y numero de jugadores titulares
+ 
+Respuesta Exitosa: parametros actualizados, HTTP status 200.
+
 
 
 
